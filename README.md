@@ -2,6 +2,7 @@
 
 This project is a weather API that fetches real-time weather data from a third-party weather service (Visual Crossing) and caches it using Redis to optimize performance and reduce the number of API calls. The API is built using **Node.js**, **Express**, and **TypeScript** with **Redis** integrated via Docker for caching.
 
+<img width="2048" height="1059" alt="Image" src="https://github.com/user-attachments/assets/54909b5e-e48d-4f49-a45e-a388d85fb388" />
 ## Table of Contents
 
 - [Project Overview](#project-overview)
