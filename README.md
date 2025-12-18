@@ -1,10 +1,6 @@
 # Weather API with Redis Caching and Rate-Limiting
 
 This project is a weather API that fetches real-time weather data from a third-party weather service (Visual Crossing) and caches it using Redis to optimize performance and reduce the number of API calls. The API is built using **Node.js**, **Express**, and **TypeScript** with **Redis** integrated via Docker for caching.
-
-<img width="2048" height="1059" alt="Image" src="https://github.com/user-attachments/assets/54909b5e-e48d-4f49-a45e-a388d85fb388" />
-## Table of Contents
-
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
@@ -14,7 +10,6 @@ This project is a weather API that fetches real-time weather data from a third-p
 - [Challenges Faced](#challenges-faced)
 
 ## Project Overview
-
 The purpose of this project is to:
 - Build a weather API that fetches data from a third-party API (Visual Crossing).
 - Implement in-memory caching using **Redis** to store weather data and reduce redundant API calls.
@@ -24,7 +19,8 @@ The purpose of this project is to:
 ### Why Caching?
 
 Third-party APIs often come with rate limits, and making frequent requests can result in blocked access. To avoid excessive API calls and reduce response time, we cache weather data for a specified time (e.g., 1 hour) using Redis. If the requested data is already cached, it will be served from the cache, improving the API's efficiency.
-![Caching concept](https://assets.roadmap.sh/guest/weather-api-f8i1q.png)
+<img width="2048" height="1059" alt="Image" src="https://github.com/user-attachments/assets/54909b5e-e48d-4f49-a45e-a388d85fb388" />
+## Table of Contents
 
 ## Technologies Used
 
